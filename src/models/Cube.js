@@ -1,5 +1,4 @@
-import { useFrame } from '@react-three/fiber';
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 
 export default function Cube(props) {
   // This reference will give us direct access to the THREE.Mesh object

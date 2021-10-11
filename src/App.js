@@ -1,9 +1,6 @@
-import React, { Suspense, useRef } from "react"
+import React, { Suspense, useRef } from "react";
 import { Canvas } from '@react-three/fiber';
-import { ContactShadows, Environment } from '@react-three/drei';
-import * as THREE from 'three';
 
-import Cube from './models/Cube';
 import Keyboard from "./models/Keyboard";
 
 import Loader from "./components/Loader";
@@ -23,9 +20,12 @@ function App() {
   return (
     <>
       <div style={{width: '100%', height: '100%', backgroundColor: 'white'}}>
+
+
         <div className="helper">
           {width > 800 ? 'Scroll' : 'Swipe left'}
         </div>
+
         <Canvas
           shadows
           adjustCamera

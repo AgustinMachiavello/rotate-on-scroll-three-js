@@ -7,11 +7,11 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
             if (window.innerWidth > 800) {
                 scroll.current = e.target.scrollTop / (e.target.scrollHeight - window.innerHeight)
             } else {
-                scroll.current = e.target.scrollLeft / (e.target.scrollWidth - window.innerWidth)   
+                scroll.current = -e.target.scrollLeft / (e.target.scrollWidth - window.innerWidth)   
             }
             let progress = scroll.current.toFixed(2)
             let grad = ((progress * 360) / 1).toFixed(0)
-            caption.current.innerText = `${grad}°`
+            caption.current.innerText = `${Math.abs(grad)}°`
         }}
         className="scroll">
         <div className="slide">
@@ -29,6 +29,9 @@ const Overlay = forwardRef(({ caption, scroll }, ref) => (
         <span className="caption" ref={caption}>
             0°
         </span>
+        <a className="model-link" href="https://skfb.ly/6Z9MU" target="_blank">
+            Model by sleepyjoshua
+        </a>
     </div>
 ))
 

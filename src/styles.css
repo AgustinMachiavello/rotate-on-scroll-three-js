@@ -1,3 +1,5 @@
+/* Styles.css - Mobile first */
+
 * {
     box-sizing: border-box;
     color: black;
@@ -12,7 +14,7 @@ body,
     height: 100%;
     margin: 0;
     padding: 0;
-    user-select: none;
+    /* user-select: none; */
     overflow: hidden;
 }
 
@@ -24,33 +26,24 @@ body,
     position: absolute;
     top: 0;
     left: 0;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: auto;
     scroll-snap-type: both proximity;
+    -webkit-overflow-scrolling: touch;
 }
 
 .scroll > div {
-    scroll-snap-align: center;
+    scroll-snap-align: unset;
 }
 
 .slide {
-    height: 25vh;
+    height: 100vh;
     width: 200vw;
+    padding: 30px;
     visibility: hidden;
     font-variant-numeric: tabular-nums;
     -webkit-font-smoothing: auto;
 }
-
-
-@media (min-width: 800px) {
-    /* Desktop */
-    .slide {
-        height: 100vh;
-        width: unset;
-        visibility: visible;
-    }
-}
-
 
 .caption {
     pointer-events: none;
@@ -68,8 +61,39 @@ body,
 
 .helper {
     position: fixed;
-    bottom: 1.5em;
+    bottom: 2.5em;
     left: 50%;
     transform: translate(-50% , -50%);
     -webkit-transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.model-link {
+    position: fixed;
+    bottom: 0.5em;
+    left: 50%;
+    font-size: 1em;
+    font-weight: 100;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+@media (min-width: 800px) {
+    /* Desktop and up */
+
+    .scroll {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .slide {
+        height: 200vh;
+        width: 100vw;
+        visibility: visible;
+    }
+
+    .scroll > div {
+        scroll-snap-align: start;
+    }
 }
