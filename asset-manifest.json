@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rotate-on-scroll-three-js/static/css/main.c6a7b9d3.chunk.css",
+    "main.js": "/rotate-on-scroll-three-js/static/js/main.3a53470f.chunk.js",
+    "main.js.map": "/rotate-on-scroll-three-js/static/js/main.3a53470f.chunk.js.map",
+    "runtime-main.js": "/rotate-on-scroll-three-js/static/js/runtime-main.ce587d1b.js",
+    "runtime-main.js.map": "/rotate-on-scroll-three-js/static/js/runtime-main.ce587d1b.js.map",
+    "static/js/2.e42c29de.chunk.js": "/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js",
+    "static/js/2.e42c29de.chunk.js.map": "/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js.map",
+    "static/js/3.51798ea6.chunk.js": "/rotate-on-scroll-three-js/static/js/3.51798ea6.chunk.js",
+    "static/js/3.51798ea6.chunk.js.map": "/rotate-on-scroll-three-js/static/js/3.51798ea6.chunk.js.map",
+    "index.html": "/rotate-on-scroll-three-js/index.html",
+    "static/css/main.c6a7b9d3.chunk.css.map": "/rotate-on-scroll-three-js/static/css/main.c6a7b9d3.chunk.css.map",
+    "static/js/2.e42c29de.chunk.js.LICENSE.txt": "/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce587d1b.js",
+    "static/js/2.e42c29de.chunk.js",
+    "static/css/main.c6a7b9d3.chunk.css",
+    "static/js/main.3a53470f.chunk.js"
+  ]
+}
