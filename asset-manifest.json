@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/css/main.c6a7b9d3.chunk.css",
-    "main.js": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/main.3a53470f.chunk.js",
-    "main.js.map": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/main.3a53470f.chunk.js.map",
-    "runtime-main.js": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/runtime-main.93fec67b.js",
-    "runtime-main.js.map": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/runtime-main.93fec67b.js.map",
-    "static/js/2.e42c29de.chunk.js": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js",
-    "static/js/2.e42c29de.chunk.js.map": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js.map",
-    "static/js/3.51798ea6.chunk.js": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/3.51798ea6.chunk.js",
-    "static/js/3.51798ea6.chunk.js.map": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/3.51798ea6.chunk.js.map",
-    "index.html": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/index.html",
-    "static/css/main.c6a7b9d3.chunk.css.map": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/css/main.c6a7b9d3.chunk.css.map",
-    "static/js/2.e42c29de.chunk.js.LICENSE.txt": "https://agustinmachiavello.github.io/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js.LICENSE.txt"
+    "main.css": "/rotate-on-scroll-three-js/static/css/main.c6a7b9d3.chunk.css",
+    "main.js": "/rotate-on-scroll-three-js/static/js/main.9330bfa2.chunk.js",
+    "main.js.map": "/rotate-on-scroll-three-js/static/js/main.9330bfa2.chunk.js.map",
+    "runtime-main.js": "/rotate-on-scroll-three-js/static/js/runtime-main.ce587d1b.js",
+    "runtime-main.js.map": "/rotate-on-scroll-three-js/static/js/runtime-main.ce587d1b.js.map",
+    "static/js/2.e42c29de.chunk.js": "/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js",
+    "static/js/2.e42c29de.chunk.js.map": "/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js.map",
+    "static/js/3.51798ea6.chunk.js": "/rotate-on-scroll-three-js/static/js/3.51798ea6.chunk.js",
+    "static/js/3.51798ea6.chunk.js.map": "/rotate-on-scroll-three-js/static/js/3.51798ea6.chunk.js.map",
+    "index.html": "/rotate-on-scroll-three-js/index.html",
+    "static/css/main.c6a7b9d3.chunk.css.map": "/rotate-on-scroll-three-js/static/css/main.c6a7b9d3.chunk.css.map",
+    "static/js/2.e42c29de.chunk.js.LICENSE.txt": "/rotate-on-scroll-three-js/static/js/2.e42c29de.chunk.js.LICENSE.txt",
+    "static/media/Keyboard.40f0e6fb.gltf": "/rotate-on-scroll-three-js/static/media/Keyboard.40f0e6fb.gltf"
   },
   "entrypoints": [
-    "static/js/runtime-main.93fec67b.js",
+    "static/js/runtime-main.ce587d1b.js",
     "static/js/2.e42c29de.chunk.js",
     "static/css/main.c6a7b9d3.chunk.css",
-    "static/js/main.3a53470f.chunk.js"
+    "static/js/main.9330bfa2.chunk.js"
   ]
 }
